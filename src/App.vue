@@ -1,13 +1,17 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+  <div class="w-full flex flex-row flex-wrap justify-center" id="app">
+    <div class="w-full max-w-4xl">
+      <div class="w-full flex flex-row justify-center">
+        <img alt="Vue logo" src="./assets/logo.png" />
+      </div>
+      <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    </div>
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-import HelloWorld from "./components/HelloWorld.vue";
+import { Component, Vue } from 'vue-property-decorator';
+import HelloWorld from './components/HelloWorld.vue';
 
 @Component({
   components: {
